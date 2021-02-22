@@ -11,4 +11,6 @@ The list of ticker symbols was from a website that listed stocks by IV Rank, but
 
 ## TODO:
 - Fetch symbols automatically
+- Functionality to resume the scan if there is a keyboard interruption or error
+- Speed things up (find a faster way to get option data for free)
 - Incorporate the `option.underlying.change` into the custom score formula
