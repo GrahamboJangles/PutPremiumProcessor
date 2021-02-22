@@ -44,7 +44,6 @@ return_per_year_list = []
 option_prices_list = []
 underlying_price_list = []
  
-# for letter in alphabet:
 def getdata(option):
   print(f"\t {option}")
  
