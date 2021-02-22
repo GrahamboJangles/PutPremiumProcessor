@@ -2,6 +2,9 @@ import wallstreet
 from wallstreet import *
 import pandas as pd 
  
+global return_per_year_target
+return_per_year_target = 25
+ 
 # ticker = 'CVM'
 
 """
@@ -83,8 +86,9 @@ def getdata(option):
   return_per_day = (return_perc / days_to_expiration) * 100
 
   return_per_year = (return_per_day * 365)
-  if return_per_year < 41:
-    print(f'Return per year: {return_per_day*365} not enough')
+  global return_per_year_target
+  if return_per_year < return_per_year_target:
+    print(f'Return per year: {return_per_day*365} does not meet {return_per_year_target}% target')
  
     return scores, strikes_list, expiration_list
   return_per_year_list.append(return_per_year)
