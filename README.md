@@ -9,5 +9,6 @@ The score isn't perfect, but does a good job of sorting to find some worthwhile 
 
 The list of ticker symbols was from a website that listed stocks by IV Rank, but is not updated. You can put whatever stock symbols you want to scan in. 
 
+## TODO:
 - Fetch symbols automatically
 - Incorporate the `option.underlying.change` into the custom score formula
