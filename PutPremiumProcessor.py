@@ -81,7 +81,7 @@ def getdata(option):
   collateral = option.strike * 100
   return_perc = ((collateral + price) - collateral) / collateral
   return_per_day = (return_perc / days_to_expiration) * 100
-  # if return_per_day < 0.06849315068:
+
   return_per_year = (return_per_day * 365)
   if return_per_year < 41:
     print(f'Return per year: {return_per_day*365} not enough')
