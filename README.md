@@ -1,7 +1,7 @@
 # PutPremiumProcessor
 PutPremiumProcessor is a Python option screener built off of the wallstreet module. I created this to find puts that pay good premium for the risk.
 
-The table generated is sorted by a scoring each put for it's risk/return. It's just something I came up with.
+The table generated is sorted by a scoring each put with a custom formula for it's risk/return.
 
 The formula is `score = (option.underlying.price / option.strike) / return_per_year`
 
