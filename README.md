@@ -9,6 +9,9 @@ The score isn't perfect, but does a good job of sorting to find some worthwhile 
 
 The list of ticker symbols was from a website that listed stocks by IV Rank, but is not updated. You can put whatever stock symbols you want to scan in. 
 
+### If you have problems running this:
+I created this in Google Colab. Easiest way to make this work is to use Colab.
+
 ## TODO:
 - Fetch symbols automatically
 - Functionality to resume the scan if there is a keyboard interruption or error
