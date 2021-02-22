@@ -7,4 +7,7 @@ The formula is `score = (option.underlying.price / option.strike) / return_per_y
 
 The score isn't perfect, but does a good job of sorting to find some worthwhile puts to look over.
 
-The list of ticker symbols was from a website that listed stocks by IV Rank, but is not updated. You can put whatever stock symbols you want to scan in. I might look into fetching these symbols automatically in the future.
+The list of ticker symbols was from a website that listed stocks by IV Rank, but is not updated. You can put whatever stock symbols you want to scan in. 
+
+- Fetch symbols automatically
+- Incorporate the `option.underlying.change` into the custom score formula
