@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/drive/1kss_pt74teFy_Do2QmsrAdawAjlTj_74?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kss_pt74teFy_Do2QmsrAdawAjlTj_74?usp=sharing)
 
 # PutPremiumProcessor
 PutPremiumProcessor is a Python option screener built off of the wallstreet module. I created this to find puts that pay good premium for the risk.
