@@ -14,6 +14,8 @@ I created this in Google Colab. Easiest way to make this work is to use Colab.
 
 ## TODO:
 - Fetch symbols automatically
-- Functionality to resume the scan if there is a keyboard interruption or error
-- Speed things up (find a faster way to get option data for free)
+- Speed things up (find a faster way to get option data for free?)
 - Incorporate `option.underlying.change` into the custom score formula
+
+## DONE:
+- Functionality to resume the scan if there is a keyboard interruption or error
