@@ -3,7 +3,7 @@
 # PutPremiumProcessor
 PutPremiumProcessor is a Python option screener built off of the robin_stocks module. I created this to find puts that pay good premium for the risk.
 
-The table generated is sorted by a scoring each put for it's risk/return.
+The table generated is sorted by each put for it's risk/return.
 
 You can put whatever stock symbols you want to scan in. 
 
@@ -13,7 +13,13 @@ I created this in Google Colab. Easiest way to make this work is to use Colab.
 ## TODO:
 - Fetch symbols automatically
 - Speed things up (find a faster way to get option data for free?)
-- Incorporate `option.underlying.change` into the custom score formula
 
 ## DONE:
 - Functionality to resume the scan if there is a keyboard interruption or error
+
+
+
+
+
+outdated todo:
+- Incorporate `option.underlying.change` into the custom score formula
