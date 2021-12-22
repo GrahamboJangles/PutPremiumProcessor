@@ -5,8 +5,6 @@ PutPremiumProcessor is a Python option screener built off of the wallstreet modu
 
 The table generated is sorted by a scoring each put with a custom formula for it's risk/return.
 
-The formula is `score = (option.underlying.price / option.strike) / return_per_year`
-
 The score isn't perfect, but does a good job of sorting to find some worthwhile puts to look over.
 
 The list of ticker symbols was from a website that listed stocks by IV Rank, but is not updated. You can put whatever stock symbols you want to scan in. 
