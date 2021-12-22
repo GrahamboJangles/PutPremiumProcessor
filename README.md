@@ -9,6 +9,7 @@ You can put whatever stock symbols you want to scan in.
 
 ### If you have problems running this:
 I created this in Google Colab. Easiest way to make this work is to use the Colab link above.
+The python file is outdated, just keeping it there for hoarding reasons i guess.
 
 ## TODO:
 - Fetch symbols automatically
