@@ -8,7 +8,7 @@ The table generated is sorted by each put for it's risk/return.
 You can put whatever stock symbols you want to scan in. 
 
 ### If you have problems running this:
-I created this in Google Colab. Easiest way to make this work is to use Colab.
+I created this in Google Colab. Easiest way to make this work is to use the Colab link above.
 
 ## TODO:
 - Fetch symbols automatically
