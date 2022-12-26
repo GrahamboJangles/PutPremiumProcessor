@@ -12,13 +12,13 @@ I created this in Google Colab. Easiest way to make this work is to use the Cola
 The python file is outdated, just keeping it there for hoarding reasons i guess.
 
 ## TODO:
-- Fetch symbols automatically
-- Speed things up (find a faster way to get option data for free?)
+
 
 ## DONE:
 - Functionality to resume the scan if there is a keyboard interruption or error
-
-
+- Fetch symbols automatically
+- Speed things up (find a faster way to get option data for free?)
+- Orders the put with the highest score automatically
 
 
 
