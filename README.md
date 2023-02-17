@@ -13,7 +13,7 @@ I created this in Google Colab. Easiest way to make this work is to use the Cola
 The python file has more features and is the most up-to-date.
 
 ## TODO:
-
+- Scrape barchart.com
 
 ## DONE:
 - Functionality to resume the scan if there is a keyboard interruption or error
